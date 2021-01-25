@@ -1,0 +1,75 @@
+@font-face {
+	font-family: Cyber;
+	src: url("Cyber.otf");
+	font-display: swap;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+
+	min-width: 600px;
+    overflow-x: hidden;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+	justify-content: space-between;
+	/*min-height: 80vh;*/
+	height: 95vh;
+
+	margin: 0 auto;
+	/*background: #A0C5E8;*/
+	padding: 10px 0;
+
+	font-family: 'Cyber', sans-serif;
+
+	--color: white;
+	--background: #111111;
+
+	color: var(--color);
+	background: var(--background);
+	/*background-image: url(choice/cat.jpg);*/
+}
+
+
+.cybr-btn{
+    margin: 20px;
+}
+
+.links{
+    margin: 20px;
+}
+
+
+
+
+/*TODO*/
+body .cybr-btn + .cybr-btn {
+	margin-top: 2rem;
+}
+
+
+
+p {
+  font-size: 25px;
+}
+
+
+
+
+img.links {
+	border: none !important;
+   	max-width:50px;
+   	max-height:50px;
+
+}
+
+a:link, a:visited {
+  background-color: transparent;
+  color: transparent;
+}

@@ -1,27 +1,47 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Twalaght</title>
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-    </head>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="A leaf on the wind">
+	<title>wirewolf_</title>
+	<link rel="stylesheet" href="css/cyber.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="./script.js"></script>
+	<!-- <base href="https://wirewolf.xyz/" target="_blank"> -->
+	<!-- <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' /> -->
+</head>
 
-    <body>
-        <nav>
-            <ul>
-                <li><a href="apexmap.html">Apex Map Tracker</a></li>
-            </ul>
-        </nav>
-        <div class="container">
-            <div class="blurb">
-                <h1>Most of this site is broken</h1>
-                <h1>For now...</h1>
-                <p>All of this is under construction, I'll throw up projects as I get them working. Don't expect too much so far!</p>
-            </div>
-        </div>
-        <footer>
-            <ul>
-                <li><a href="https://github.com/twalaght">github.com/twalaght</a></li>
-            </ul>
-        </footer>
-    </body>
+<body>
+	<div class="container">
+		<button class="cybr-btn" onclick="location.href='about/index.html';">
+			<span>About_</span>
+			<span class="cybr-btn__glitch">About_</span>
+		</button>
+
+		<button class="cybr-btn" onclick="location.href='choice/index.html';">
+			<span id="rt1"></span>
+			<span class="cybr-btn__glitch"><span id="rt2"></span></span>
+		</button>
+
+		<script>document.getElementById("rt1").innerHTML = randomtext(7);</script>
+		<script>document.getElementById("rt2").innerHTML = randomtext(7);</script>
+	</div>
+
+	<div id="title" class="cyber-title">
+		wirewolf_
+		<span class="cyber-title_glitch">wirewolf_</span>
+	</div>
+
+	<div class="links">
+		<a href="https://github.com/Twalaght" target="_blank">
+			<img class="links" src="assets/github.png" draggable="false">
+		</a>
+		<a href="https://twitter.com/twalaght" target="_blank">
+			<img class="links" src="assets/twitter.png" draggable="false">
+		</a>
+		<a href="https://twalaght.xyz" target="_blank">
+			<img class="links" src="assets/globe.png" draggable="false">
+		</a>
+	</div>
+</body>
 </html>
